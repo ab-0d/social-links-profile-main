@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box; }
+
+:root {
+  --Green: hsl(75, 94%, 57%);
+  --White: hsl(0, 0%, 100%);
+  --Grey-700: hsl(0, 0%, 20%);
+  --Grey-800: hsl(0, 0%, 12%);
+  --Grey-900: hsl(0, 0%, 8%); }
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--Grey-900); }
+
+.social-links {
+  background-color: var(--Grey-800);
+  text-align: center;
+  padding: 40px;
+  border-radius: 12px; }
+  .social-links img {
+    width: 5rem;
+    border-radius: 50%; }
+  .social-links h2,
+  .social-links p,
+  .social-links li {
+    color: var(--White); }
+  .social-links h2 {
+    margin: 22.4px 0 4px 0; }
+  .social-links p {
+    margin: 22.4px 0; }
+  .social-links span {
+    color: var(--Green); }
+  .social-links ul {
+    padding: 0; }
+    .social-links ul li {
+      list-style-type: none; }
+      .social-links ul li a {
+        display: block;
+        text-decoration: none;
+        color: var(--White);
+        padding: 12px 0;
+        font-weight: 600;
+        background-color: var(--Grey-700);
+        margin-bottom: 16px;
+        border-radius: 6px;
+        cursor: pointer; }
+        .social-links ul li a:hover {
+          background-color: var(--Green);
+          color: var(--Grey-900); }
+
+/*# sourceMappingURL=main.css.map */

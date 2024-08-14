@@ -28,18 +28,20 @@ body {
     border-radius: 50%;
   }
   h2,
-  p,
+  .skills,
   li {
     color: var(--White);
   }
   h2 {
     margin: 22.4px 0 4px 0;
+    font-size: 22px;
   }
-  p {
-    margin: 22.4px 0;
-  }
-  span {
+  .location {
     color: var(--Green);
+    margin: 0;
+  }
+  .skills {
+    margin: 22.4px 0;
   }
 
   ul {

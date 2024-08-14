@@ -26,15 +26,17 @@ body {
     width: 5rem;
     border-radius: 50%; }
   .social-links h2,
-  .social-links p,
+  .social-links .skills,
   .social-links li {
     color: var(--White); }
   .social-links h2 {
-    margin: 22.4px 0 4px 0; }
-  .social-links p {
+    margin: 22.4px 0 4px 0;
+    font-size: 22px; }
+  .social-links .location {
+    color: var(--Green);
+    margin: 0; }
+  .social-links .skills {
     margin: 22.4px 0; }
-  .social-links span {
-    color: var(--Green); }
   .social-links ul {
     padding: 0; }
     .social-links ul li {
